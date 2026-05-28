@@ -1,0 +1,14 @@
+**The Four Questions**
+
+1. Verb: nest
+2. Object: a Russian nesting doll that contains an even smaller doll, which contains an even smaller doll
+3. Animal: a raccoon that keeps digging up the same shiny object, hiding it in a different hole each time, and then staring blankly at the holes wondering which one has the treasure
+4. Most annoying manual task: walking into every single nested room of a giant dollhouse and manually checking whether the little doll inside is looking at the right wall because someone told it to "check the other wall sometime" but forgot to explain that the wall it already looks at is the one that actually matters
+
+**The Reality**
+
+This skill is basically a rulebook for a very specific type of organizational chaos — the kind where you put one giant box inside another giant box, then try to keep track of which box contains what. It knows about three different places you can write notes about which direction the inner box should be facing: the map that travels with the boxes (.gitmodules), the sticky note you keep in your desk drawer (.git/config), and the tiny scrap of paper you tape to each individual workspace's door (config.worktree). The skill explains that these three notes have a very specific fighting order, and if you write the wrong note in the wrong place, Git will politely ignore you.
+
+**The Superpower and the Mockery**
+
+It thinks it is the master organizer of nested repositories, but really it is just a very pedantic traffic cop standing at the intersection of three different note-checking stations, blowing its whistle at every single car that doesn't show the exact right note. It will happily tell you exactly which note is winning and where it was written, but it cannot actually make the submodule do anything — it can only explain which direction the instruction sheet said to point. The most it can do is say "the note says look at the north wall" while the submodule is quietly looking at the south wall anyway because someone forgot to actually walk over and turn it.
