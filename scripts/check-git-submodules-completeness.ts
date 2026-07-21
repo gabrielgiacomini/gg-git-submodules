@@ -6,7 +6,7 @@
  * Verifies a git submodule operation against the 8-item Git Submodules Quality Checklist.
  * 
  * Usage:
- *   npx tsx skills/git-submodules/scripts/check-git-submodules-completeness.ts --phase <phase>
+ *   npx tsx .agents/skills/git-submodules/scripts/check-git-submodules-completeness.ts --phase <phase>
  */
 
 import { argv } from "process";
